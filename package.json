@@ -1,4 +1,43 @@
 {
+  "name": "verdure-vscode-theme",
+  "displayName": "Verdure: Green Color Theme",
+  "description": "A VS Code color theme inspired by the enchanting green color of a beautiful cup of Matcha Latte.",
+  "version": "0.0.1",
+  "publisher": "verdure",
+  "icon": "images/verdurelogo3.png",
+  "author": {
+    "name": "Ada Rachel",
+    "email": "adarachelofficial@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarachel/verdure-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/adarachel/verdure-vscode-theme/issues",
+    "email": "adarachelofficial@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "green theme",
+    "Light Theme",
+    "green",
+    "Verdure"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Verdure",
+        "uiTheme": "vs",
+        "path": "./themes/Verdure-color-theme.json"
+      }
+    ]
+  },
   "dependencies": {
     "@npmcli/fs": "^3.1.0",
     "generator-code": "^1.7.9"
