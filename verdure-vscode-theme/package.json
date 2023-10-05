@@ -3,6 +3,7 @@
   "displayName": "verdure-vscode-theme",
   "description": "A VS Code theme inspired by the enchanting green color of a matcha latte",
   "version": "0.0.1",
+  "icon": "images/verdurelogo3.png",
   "engines": {
     "vscode": "^1.83.0"
   },
